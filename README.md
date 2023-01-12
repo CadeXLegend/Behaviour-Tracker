@@ -5,7 +5,7 @@ Coding Languages:
 
 Building For: ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=appveyor&logo=android&logoColor=white) 
 
-Development Environment: ![Unity](https://img.shields.io/badge/unity-2022.1.3f1-black)
+Development Environment: ![Unity](https://img.shields.io/badge/Unity-2022.1.3f1-black)
 
 IDE: ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=appveyor&logo=visual-studio-code&logoColor=white) 
 
@@ -16,5 +16,5 @@ Contact me on: ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?sty
 
 Using Unity Assets:
 
-![BetterUI](https://img.shields.io/badge/better%20ui-2.4.0-blue)
-![Gamestrap](https://img.shields.io/badge/gamestrap-5.0.2-blue)
+![BetterUI](https://img.shields.io/badge/Better%20UI-2.4.0-black)
+![Gamestrap](https://img.shields.io/badge/Gamestrap-5.0.2-black)
