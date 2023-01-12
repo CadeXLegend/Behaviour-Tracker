@@ -6,6 +6,7 @@ Coding Languages:
 Building For: ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=appveyor&logo=android&logoColor=white) 
 
 Development Environment: ![Unity](https://img.shields.io/badge/Unity-%23000000.svg?style=flat&logo=appveyor&logo=unity&logoColor=white) 
+Requires Version: ![Unity](https://img.shields.io/badge/unity-2022.1.3f1-blue)
 
 IDE: ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=appveyor&logo=visual-studio-code&logoColor=white) 
 
