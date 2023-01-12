@@ -9,7 +9,7 @@ Development Environment: ![Unity](https://img.shields.io/badge/Unity-2022.1.3f1-
 
 IDE: ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=appveyor&logo=visual-studio-code&logoColor=white) 
 
-Developing on: ![Pop!\_OS](https://img.shields.io/badge/Pop!_OS 22.04-48B9C7?style=flat&logo=appveyor&logo=Pop!_OS&logoColor=white) 
+Developing on: ![Pop!\_OS](https://img.shields.io/badge/Pop!_OS-48B9C7?style=flat&logo=appveyor&logo=Pop!_OS&logoColor=white) 
 
 Contact me on: ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=flat&logo=appveyor&logo=discord&logoColor=white)
 
