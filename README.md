@@ -17,5 +17,6 @@ Requirements:
 ![Unity](https://img.shields.io/badge/unity-2022.1.3f1-blue)
 
 Using Unity Assets:
+
 ![BetterUI](https://img.shields.io/badge/better%20ui-2.4.0-blue)
 ![Gamestrap](https://img.shields.io/badge/gamestrap-5.0.2-blue)
