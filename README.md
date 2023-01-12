@@ -12,5 +12,3 @@ IDE: ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0
 Developing on: ![Pop!\_OS](https://img.shields.io/badge/Pop!_OS-48B9C7?style=flat&logo=appveyor&logo=Pop!_OS&logoColor=white) 
 
 Contact me on: ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=flat&logo=appveyor&logo=discord&logoColor=white)
-
- A Behaviour Tracking App!
