@@ -13,9 +13,8 @@ Developing on: ![Pop!\_OS](https://img.shields.io/badge/Pop!_OS-48B9C7?style=fla
 
 Contact me on: ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=flat&logo=appveyor&logo=discord&logoColor=white)
 
-Requirements:
-![Unity](https://img.shields.io/badge/unity-2022.1.3f1-blue)
 
+![Unity](https://img.shields.io/badge/unity-2022.1.3f1-blue)
 Using Unity Assets:
 
 ![BetterUI](https://img.shields.io/badge/better%20ui-2.4.0-blue)
