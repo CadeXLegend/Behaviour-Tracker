@@ -20,16 +20,16 @@ public class UIViewsObject : ScriptableObject
         OnViewStateChanged?.Invoke();
         switch (state)
         {
-            case UIView.State.Categories:
+            case UIView.State.Category:
                 SetCategoryParent(null);
                 SetActivityParent(null);
                 SetMetricParent(null);
                 break;
-            case UIView.State.Activities:
+            case UIView.State.Activity:
                 SetActivityParent(null);
                 SetMetricParent(null);
                 break;
-            case UIView.State.Metrics:
+            case UIView.State.Metric:
                 SetMetricParent(null);
                 break;
             case UIView.State.None:

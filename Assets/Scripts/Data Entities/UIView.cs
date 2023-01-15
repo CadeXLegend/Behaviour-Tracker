@@ -5,10 +5,11 @@ public class UIView
 {
     public enum State
     {
+        
         None,
-        Categories,
-        Activities,
-        Metrics,
+        Category,
+        Activity,
+        Metric,
     }
 
     [SerializeField]

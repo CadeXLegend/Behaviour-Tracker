@@ -25,8 +25,9 @@ public class ButtonGenerator : MonoBehaviour
         //this is here temporarily,
         //don't feel like making another script or default view
         //just to call these 2 lines (yet)
+        categoriesObject.LoadFromJSON();
         InitializeButtons();
-        viewsObject.SetState(UIView.State.Categories);
+        viewsObject.SetState(UIView.State.Category);
     }
 
     private void InitializeButtons()
@@ -54,27 +55,27 @@ public class ButtonGenerator : MonoBehaviour
             case ButtonType.Category:
                 bb.SetData(buttonName, () =>
                     {
-                        viewsObject.SetState(UIView.State.Activities);
+                        viewsObject.SetState(UIView.State.Activity);
                         viewsObject.SetCategoryParent(c);
                         buttonInteraction?.Invoke();
                     });
                 viewsObject.OnViewStateChanged += () =>
                 {
-                    bool shouldRender = viewsObject.View.ViewState == UIView.State.Categories;
+                    bool shouldRender = viewsObject.View.ViewState == UIView.State.Category;
                     bb.Render(shouldRender, shouldRender ? parent : pool);
                 };
                 break;
             case ButtonType.Activity:
                 bb.SetData(buttonName, () =>
                         {
-                            viewsObject.SetState(UIView.State.Metrics);
+                            viewsObject.SetState(UIView.State.Metric);
                             viewsObject.SetActivityParent(a);
                             buttonInteraction?.Invoke();
                         });
                 viewsObject.OnViewStateChanged += () =>
                     {
                         if (viewsObject.View.CParent == null) return;
-                        bool shouldRender = viewsObject.View.ViewState == UIView.State.Activities && viewsObject.View.CParent.Activities.Contains(a);
+                        bool shouldRender = viewsObject.View.ViewState == UIView.State.Activity && viewsObject.View.CParent.Activities.Contains(a);
                         bb.Render(shouldRender, shouldRender ? parent : pool);
                     };
                 viewsObject.OnCategoryViewParentChanged += () =>
